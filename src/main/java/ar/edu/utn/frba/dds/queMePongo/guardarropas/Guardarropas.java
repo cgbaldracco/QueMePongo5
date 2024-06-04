@@ -6,11 +6,13 @@ import java.util.List;
 
 public class Guardarropas {
   private Usuario duenio;
+  private String criterio;
   private List<Prenda> prendas;
   private List<SugerenciaGuardarropas> sugerenciasGuardarropas;
 
-  public Guardarropas(Usuario duenio, List<Prenda> prendas, List<SugerenciaGuardarropas> sugerenciasGuardarropas) {
+  public Guardarropas(Usuario duenio, String criterio, List<Prenda> prendas, List<SugerenciaGuardarropas> sugerenciasGuardarropas) {
     this.duenio = duenio;
+    this.criterio = criterio;
     this.prendas = prendas;
     this.sugerenciasGuardarropas = sugerenciasGuardarropas;
   }
